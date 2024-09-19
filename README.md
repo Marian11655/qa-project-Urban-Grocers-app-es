@@ -36,6 +36,14 @@ Las siguientes pruebas automatizadas están diseñadas para validar la longitud 
 | 8   | El campo `name` contiene caracteres especiales permitidos: `kit_body = {"name": "@Kit_#2024"}`    | Código de respuesta: 201. El campo "name" del cuerpo de la respuesta coincide con el campo "name" del cuerpo de la solicitud.                                                  |
 | 9   | El campo `name` contiene caracteres no permitidos: `kit_body = {"name": "Kit<>¿?!"}`              | Código de respuesta: 400.                                                                                                                                                     |
 
+## Ejecución de Pruebas en la Terminal
+
+Para ejecutar las pruebas automatizadas en la terminal, deben seguirse estos pasos:
+
+1. **Navega al directorio del proyecto**:
+   ```bash
+   cd ruta/del/proyecto/api_stand_tests
+
 ## Requisitos
 
 - **Python 3.12+**
